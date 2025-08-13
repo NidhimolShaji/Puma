@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+.promo-message{
+   background-color: white;
+   justify-content: center;
+   height: 2.75rem;
+   font-family:FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif ;
+   font-size: 14px;
+   font-weight:bold;
+   line-height: 1.428;
+   color: black;
+   padding: 10px;
+   text-align:center;
+}
+.n1{
+    background-color: black;
+    
+    background-origin:border-box;
+    position:sticky,fixed;
+    align-items: stretch;
+    border: 0px solid black;
+    width: 100%;
+    display: flex;
+    color:white;
+    font-family:FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font: size 16px;
+    font-weight:600; 
+    word-spacing: 25px;
+    margin-top: 0.25rem;
+    
+    padding-bottom:30px;
+    padding:5px;
+    padding-inline-start: 40px;
+    line-height: 2.5;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+}
+nav{
+    
+    height:50px;
+    width:90px;
+    size: 16px;
+    
+    
+    padding:0px;
+}
