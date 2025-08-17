@@ -2,6 +2,9 @@
     margin:0;
     padding:0;
     cursor: pointer;
+   
+    
+    
 }
 .promo-message{
    
@@ -144,11 +147,6 @@ nav{
     font-size: 15px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
-    
-   
-    
-   
-
 }
 .cat-buttons button:hover{
 
@@ -177,7 +175,7 @@ nav{
     border: 3px solid rgb(236, 155, 3);
     padding: 5px 5px;
     display: flex;
-    flex-direction: column;
+   
     justify-content: center;
     position: relative;
     align-items: center;
@@ -204,7 +202,7 @@ nav{
     height: 300px;
     width: 300;
     display:flex;
-    flex-direction:row;
+    
     justify-content: space-around;
     position:relative;
     box-sizing:border-box;
@@ -240,11 +238,11 @@ nav{
 
 .icons{
    
-    height: 2000px;
-    width: 1230px;
+    /*height: 2000px;
+    width: 1230px;*/
     display:flex;
-    flex-direction:row;
-    justify-content: space-around;
+    
+    
     position:relative;
     box-sizing:border-box;
     margin-top: 50px;
@@ -255,22 +253,149 @@ nav{
     max-width: 100%;
     max-height: 100%;
 }
-
-.elite{
-    margin-top: 0px;
-    display:block;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 10px;
-    height: 1000px;
-    background-image: url(/images/Deviate.png);
+.box{
     width: 100%;
-}
-.elite img{
-    max-width: 100%;
     height: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 40px;
+   
+}
+ .box img{
+   max-width:100%;
+   max-height: 50%;
+}
+.buttons{
+  
+   
+    position: relative;
+    left:863px;
+    bottom:200px;
+
+}
+.buttons button{
+    height: 47px;
+    width: 122px;
+    padding: 10px 20px;
+    background-color:white;
+    color:black;
+    padding: 10px 10px;
+    border: none;
+    margin-right: 12px;
+    margin-top:17px;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
+.origin{
+    width: 100%;
+    height:50% ;
+    position: relative;
+    padding-top:-0.1px;
+}
+.origin img{
+   max-width:100%;
+   max-height: 50%;
+   
+}
+.shop-btn{
+    
+    
+    position: relative;
+    left:130px;
+    bottom:205px;
+
+} 
+.shop-btn button{
+    height: 47px;
+    width: 130px;
+    padding: 10px 20px;
+    background-color:white;
+    color:black;
+    padding: 10px 10px;
+    border: none;
+    margin-right: 15px;
+    margin-top:17px;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
 
 
 
+.squid{
+    width: 100%;
+    height:50% ;
+    position: relative;
+    padding-top: -0.123;
+}
+.squid img{
+   padding-top:10px;
+   max-width:100%;
+   max-height: 50%;
+   
+}
+.shop-btn2{
+    
+    
+    position: relative;
+    left:180px;
+    bottom:205px;
+
+} 
+.shop-btn2 button{
+    height: 47px;
+    width: 130px;
+    padding: 10px 20px;
+    background-color:white;
+    color:black;
+    padding: 10px 10px;
+    border: none;
+    margin-right: 15px;
+    margin-top:17px;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+   
+.spot{
+    
+    text-align: center;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;;
+    line-height: 1.7 ;
+}
+.spot-light{
+    font-size: 37px;
+    font-weight: bold;
+    padding-top: 1px;
+    
+}
+.photos{
+    display: flex;
+    margin-right:1px;
+    padding-left: 10px;
+}
+.photo{
+    height: 300px;
+    width: 300;
+    display:flex;
+    
+    justify-content: space-around;
+    position:relative;
+    box-sizing:border-box;
+    margin-top: 50px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.photo img{
+    max-width:100%;
+    max-height: 100%;
+}
