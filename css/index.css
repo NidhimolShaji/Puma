@@ -1,9 +1,9 @@
 *{
+    
     margin:0;
     padding:0;
     cursor: pointer;
    
-    
     
 }
 .promo-message{
@@ -28,7 +28,7 @@
     align-items: stretch;
     border: 0px solid black;
     width: 100%;
-    height: 60px;
+    height: 67px;
     display: flex;
     color:white;
     font-family:FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -43,6 +43,9 @@
     box-sizing: border-box;
     cursor: pointer;
     white-space: nowrap;
+    position: sticky;
+    top:0;
+    z-index: 1000;
 }
 nav{
     
@@ -50,6 +53,7 @@ nav{
     width:90px;
     size: 16px;
     padding:0px;
+    margin: 0;
     position: sticky;
 }
 .b{
@@ -64,8 +68,9 @@ nav{
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     border: 1px groove;
     cursor: pointer;
-    padding-bottom: 30px;
+    padding-bottom: 13px;
     padding-right: 3px;
+    align-self: center;
   
     
 }
@@ -88,6 +93,34 @@ nav{
     margin-top: 3px;
     margin-right:8px;
     
+}
+.like{
+    height: 25px;
+    width: 28px;
+    padding-left: 50px;
+    margin-top: 9px;
+
+}
+.like:hover{
+    opacity: 0.5;
+}
+.cart{
+    height: 25px;
+    width: 26px;
+    padding-left: 35px;
+    margin-top: 10px;
+}
+.cart:hover{
+    opacity: 0.5;
+}
+.profile{
+    height: 27px;
+    width: 27px;
+    padding-left: 27px;
+    margin-top: 9px;
+}
+.profile:hover{
+    opacity: 0.5;
 }
 .div{
     background-color:rgb(232, 222, 209) ;
@@ -221,7 +254,7 @@ nav{
 .invented{
     
     text-align: center;
-    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     line-height: 1.7 ;
 }
 .reinvented{
@@ -434,4 +467,51 @@ nav{
 .step-lights img{
     max-width:100%;
     max-height: 100%;
+}
+
+
+.gearup{
+    text-align:left;
+    padding-left: 30px;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;;
+}
+.gearups{
+    font-size: 26px;
+    font-weight:650;
+    padding-top: 60px;
+}
+.gearsports{
+    display: flex;
+    margin-right:1px;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.gearsport{
+    height: 300px;
+    width: 300;
+    display:flex;
+    padding-top: 0px;
+    justify-content: space-around;
+    position:relative;
+    box-sizing:border-box;
+    margin-top: 50px;
+    padding: 15 15px;
+    margin-left: 20px;
+}
+.gearsport img{
+    max-width:100%;
+    max-height: 100%;
+}
+
+
+.last{
+    width: 100%;
+    height:50% ;
+    position: relative;
+    padding-top:200px;
+}
+.last img{
+   max-width:100%;
+   max-height: 50%;
+   
 }
