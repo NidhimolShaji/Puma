@@ -69,7 +69,7 @@ nav{
     border: 1px groove;
     cursor: pointer;
     padding-bottom: 13px;
-    padding-right: 3px;
+    padding-right: 5px;
     align-self: center;
   
     
@@ -303,7 +303,6 @@ nav{
   
    
     position: relative;
-    left:863px;
     bottom:200px;
 
 }
