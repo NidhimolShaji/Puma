@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     cursor: pointer;
-   
+   overflow-x: hidden;
     
 }
 .promo-message{
@@ -32,7 +32,7 @@
     display: flex;
     color:white;
     font-family:FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font: size 8px;
+    font: 14px;
     font-weight:700; 
     word-spacing: 25px;
     margin-top: 0.25rem;
@@ -40,21 +40,23 @@
     padding:10px;
     padding-inline-start: 40px;
     line-height: 2.5;
-    box-sizing: border-box;
+    box-sizing:border-box;
     cursor: pointer;
     white-space: nowrap;
     position: sticky;
     top:0;
-    z-index: 1000;
+    z-index:1000;
+    overflow-x: hidden;
 }
 nav{
-    
+    position: sticky;
+    top:0;
+    z-index: 1000;
     height:50px;
     width:90px;
     size: 16px;
-    padding:0px;
-    margin: 0;
-    position: sticky;
+    overflow-x: hidden;
+    
 }
 .b{
     margin-left: 155px;
@@ -71,7 +73,7 @@ nav{
     padding-bottom: 13px;
     padding-right: 5px;
     align-self: center;
-  
+  overflow-x: hidden;
     
 }
 .b:hover{
@@ -125,7 +127,7 @@ nav{
 .div{
     background-color:rgb(232, 222, 209) ;
     position: relative;
-    width: 80%px;
+    width: 100%;
     height: 425px;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -146,13 +148,14 @@ nav{
    
 }
 .offer-text h2{
+    overflow: hidden;
     font-size: 37px;
     font-weight: bold;
     padding-top: 130px;
     font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 .p1{
-    margin-left:24%;
+   
     box-sizing: border-box;
     font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
@@ -195,13 +198,14 @@ nav{
     
 }
 .circles{
+    
     display: flex;
     margin-left: 350px;
     margin-top: -80px
     
 }
 .circle{
-
+overflow: hidden;
     border-radius: 50%;
     height: 80px;
     width: 80px;
@@ -229,6 +233,7 @@ nav{
     display: inline-block;
     margin-right:1px;
     padding-left: 10px;
+    overflow: hidden;
 
 }
 .square{
@@ -250,6 +255,11 @@ nav{
     max-height: 100%;
    
     
+}
+.square h3,p{
+    text-align: center;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7 ;
 }
 .invented{
     
@@ -286,6 +296,12 @@ nav{
     max-width: 100%;
     max-height: 100%;
 }
+
+.icons h3,p{
+     text-align: center;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7 ;
+}
 .box{
     width: 100%;
     height: 50%;
@@ -293,34 +309,37 @@ nav{
     flex-direction: column;
     position: relative;
     padding-top: 40px;
+    overflow-x: hidden;
    
 }
  .box img{
    max-width:100%;
    max-height: 50%;
+   overflow-x: hidden;
 }
 .buttons{
   
    
     position: relative;
-    bottom:200px;
+    left:845px;
+    bottom:205px;
 
 }
 .buttons button{
-    height: 47px;
-    width: 122px;
-    padding: 10px 20px;
+     height: 49px;
+    width: 140px;
+    padding: 10px 18px;
     background-color:white;
     color:black;
     padding: 10px 10px;
     border: none;
-    margin-right: 12px;
+    margin-right: 15px;
     margin-top:17px;
     font-weight: bold;
     font-size: 15px;
     position: relative;
     
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .origin{
@@ -366,11 +385,13 @@ nav{
     height:50% ;
     position: relative;
     padding-top: -0.123;
+    overflow-x: hidden;
 }
 .squid img{
    padding-top:10px;
    max-width:100%;
    max-height: 50%;
+   overflow-x: hidden;
    
 }
 .shop-btn2{
@@ -416,8 +437,8 @@ nav{
     padding-left: 10px;
 }
 .photo{
-    height: 300px;
-    width: 300;
+    height: 250px;
+    width: 250;
     display:flex;
     
     justify-content: space-around;
@@ -447,27 +468,35 @@ nav{
 }
 .steps{
     display: flex;
+       
     margin-right:1px;
     padding-left: 10px;
     padding-top: 0px;
+    
 }
 .step-lights{
-    height: 300px;
-    width: 300;
+    height: 270px;
+    width: 270;
     display:flex;
+      
     padding-top: 0px;
     justify-content: space-around;
     position:relative;
     box-sizing:border-box;
     margin-top: 50px;
     padding: 5px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .step-lights img{
+     
     max-width:100%;
     max-height: 100%;
 }
-
+.step-lights h3{
+    text-align: center;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    left: 50px;
+}
 
 .gearup{
     text-align:left;
@@ -484,10 +513,11 @@ nav{
     margin-right:1px;
     padding-left: 10px;
     padding-top: 0px;
+    padding-bottom: 200px;
 }
 .gearsport{
-    height: 300px;
-    width: 300;
+    height: 250px;
+    width: 250;
     display:flex;
     padding-top: 0px;
     justify-content: space-around;
@@ -500,17 +530,43 @@ nav{
 .gearsport img{
     max-width:100%;
     max-height: 100%;
+    
 }
 
 
-.last{
-    width: 100%;
-    height:50% ;
-    position: relative;
-    padding-top:200px;
-}
-.last img{
-   max-width:100%;
-   max-height: 50%;
+
    
+
+.photos, .steps, .gearsports {
+    display: flex;
+    flex-wrap: wrap;    /* ✅ allows wrapping instead of forcing scroll */
+    overflow: hidden;   /* ✅ stops unwanted y-scroll inside elements */
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
+  gap: 1px;                     /* Space between fruits & vegetables */
+  max-width: 100%;
+  height: 450px;
+  background-color: black;
+  padding-left: 30px;
+
+  
+}
+
+
+
+.footer-column {
+padding-top:50px;
+height:300px;
+background-color: black;
+color: white;
+display: grid;
+gap:1px; 
+font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;;
+
+}
+.footer-column div:hover{
+    text-decoration: underline;
 }
